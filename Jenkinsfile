@@ -6,4 +6,7 @@ node {
     stage('stage 2') {
         echo "Inside stage 2"
     }
+    stage('Email Notification') {
+        echo "We will send email here."
+    }
 }
