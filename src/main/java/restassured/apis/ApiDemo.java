@@ -10,4 +10,5 @@ public class ApiDemo {
         System.out.println("API call completed with status code : " + response.getStatusCode());
         System.out.println("User retrieved : " + response.getBody());
     }
+
 }
