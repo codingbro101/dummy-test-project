@@ -3,7 +3,7 @@
     <test name="API Test 1">
         <classes>
             <class name="apitesting.ApiTest">
-                <parameter name="userID" value="2"></parameter>
+                <parameter name="userID" value="3"></parameter>
             </class>
         </classes>
     </test>
