@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="API Testing Suite">
+    <test name="API Test 1">
+        <classes>
+            <class name="apitesting.ApiTest">
+                <parameter name="userID" value="2"></parameter>
+            </class>
+        </classes>
+    </test>
+</suite>
