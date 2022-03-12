@@ -13,6 +13,6 @@ public class ApiTest {
     @Test
     @Parameters("userID")
     public void getUser(int userId) {
-        apiDemo.getUser(2);
+        apiDemo.getUser(userId);
     }
 }
